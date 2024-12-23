@@ -19,7 +19,7 @@ class SignUpForm(UserCreationForm):
 
 class CategoryForm(forms.ModelForm):
     class Meta:
-        model = Category
+        model = Category 
         fields = ['name']
 
 class TaskForm(forms.ModelForm):
